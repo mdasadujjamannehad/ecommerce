@@ -14,6 +14,8 @@ export default {
         'categoryBg':'#F5F5F3',
         'borderBg':'#979797',
         'footerBg':'#F5F5F3',
+        'categoryborder' : '#D8D8D8',
+        'textbg' :'#262626'
       },
       fontFamily: {
         "dmFonts": ['DM Sans']
@@ -21,9 +23,16 @@ export default {
       width:{
         logoW:'40%',
         menuW:'60%',
+        categorywidth:'373px',
+        shopProductWidth:'1190px',
+        paraWidth:'507px'
       },
       spacing: {
         '84px': '84px',
+      },
+      lineHeight: {
+        '52px': '52px',
+        
       }
     },
     plugins: [],

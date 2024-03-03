@@ -16,17 +16,26 @@ const Navbar = () => {
         <Container>
           <Flex>
             <div className="w-logoW">
-              
+
               <Link to='/' >
-              <Image src={Logo} alt={Logo} />
+                <Image src={Logo} alt={Logo} />
               </Link>
             </div>
             <div className="w-menuW">
               <ul className='flex gap-10'>
-                <List text='Home' />
-                <List text='Shop' />
-                <List text='Abouts' />
+                <Link to='/'>
+                  <List text='Home' />
+                </Link>
+                <Link to='/shop'>
+                  <List text='Shop' />
+                </Link>
+                <Link to='/about'>
+                  <List text='Abouts' />
+                </Link>
+                <Link to='/contact'>
                 <List text='Contacts' />
+                </Link>
+               
                 <List text='Journal' />
               </ul>
             </div>

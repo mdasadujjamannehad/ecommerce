@@ -87,10 +87,10 @@ function Footer() {
         </Flex>
         <Flex className='justify-between pt-16'>
           <div className="w-[72%]">
-            <div className="flex items-center gap-5 text-2xl">
-              <Link to='/'> <FaFacebookF className='text-2xl' /></Link>
-              <Link to='/'> <FaLinkedinIn className='text-2xl' /></Link>
-              <Link to='/'>  <FaInstagram className='text-2xl' /></Link>
+            <div className="flex items-center text-2xl">
+              <Link to='/'> <FaFacebookF className='text-2xl hover:text-4xl transition-all ' /></Link>
+              <Link to='/'> <FaLinkedinIn className='text-2xl hover:text-4xl ml-5 transition-all' /></Link>
+              <Link to='/'>  <FaInstagram className='text-2xl hover:text-4xl ml-5 transition-all' /></Link>
             </div>
           </div>
           <div className="w-[28%]">
